@@ -140,6 +140,9 @@ public class Parser {
                     busStop = busStops.get(busStops.indexOf(busStop));
                 } else {
                     busStops.add(busStop);
+                }
+
+                if (!busStopsOnlyName.contains(busStopOnlyName)) {
                     busStopsOnlyName.add(busStopOnlyName);
                 }
 
